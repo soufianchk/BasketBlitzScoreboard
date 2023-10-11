@@ -1,0 +1,242 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    margin: auto;
+    background-image: url("img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    background-color: darkgreen;
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    box-shadow: 0 9px 50px #666;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    align-items: center;
+    background-image: url("img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.Home,
+.Guest {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    box-shadow: 0 9px 50px #666;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+.Home,#guest-btn,#home-btn{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    box-shadow: 0 9px 50px #666;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+.Home:hover,#guest-btn,#home-btn:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #17a2b8;
+    transition: all 0.3s ease 0s;
+}
+.Guest:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #17a2b8;
+    transition: all 0.3s ease 0s;
+}
+.container:hover {
+    box-shadow: 0 9px 50px #fff;
+    transform: translateY(-20px);
+    transition: all 0.3s ease 0s;
+}
+.container:hover .Home {
+    color: #fff;
+    background-color: #000;
+    border-color: #17a2b8;
+    transition: all 0.3s ease 0s;
+}
+.container:hover .Guest {
+    color: #fff;
+    background-color: #000;
+    border-color: #17a2b8;
+    transition: all 0.3s ease 0s;
+}
+.container:hover .Home:hover,
+.container:hover .Guest:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #17a2b8;
+    transition: all 0.3s ease 0s;
+}
+.container:hover .Home:hover .Guest:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #17a2b8;
+    transition: all 0.3s ease 0s;
+}
+.container:hover .Home:hover .Guest:hover .Home:hover .Guest:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #17a2b8;
+    transition: all 0.3s ease 0s;
+}
+.operate1{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    box-shadow: 0 9px 50px #666;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+.operate1:hover{
+    color: #fff;
+    background-color: red;
+    border-color: #17a2b8;
+    transition: all 0.3s ease 0s;
+}
+.operate2{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    box-shadow: 0 9px 50px #666;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+.operate2:hover{
+    color: #fff;
+    background-color: green;
+    border-color: #17a2b8;
+    transition: all 0.3s ease 0s;
+}
+#result{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    box-shadow: 0 9px 50px #666;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+#reset-btn,#Save-btn{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 0 9px 50px #666;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+button {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    box-shadow: 0 9px 50px #666;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+button:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #17a2b8;
+    transition: all 0.3s ease 0s;
+}
+.container-2 {
+    background-color: darkgreen;
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 0 9px 50px #666;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    align-items: center;
+    background-image: url("img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container-3 {
+    background-color: darkgreen;
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 0 9px 50px #666;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    align-items: center;
+    background-image: url("img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container-4 {
+    background-color: darkgreen;
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 0 9px 50px #666;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    align-items: center;
+    background-image: url("img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

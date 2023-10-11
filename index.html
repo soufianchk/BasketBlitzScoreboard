@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>BasketBlitz Scoreboard</title>
+</head>
+<body>
+<div class="container">
+    <div class="Home">
+        <h1>Home</h1>
+        <button id="home-btn">0</button>
+        <div class="operate1">
+            <button onclick="add1H()">+1</button>
+            <button onclick="add2H()">+2</button>
+            <button onclick="add3H()">+3</button>
+        </div>
+
+    </div>
+
+    <div class="Guest">
+        <h1>Guest</h1>
+        <button id="guest-btn">0</button>
+        <div class="operate2">
+            <button onclick="add1G()">+1</button>
+            <button onclick="add2G()">+2</button>
+            <button onclick="add3G()">+3</button>
+        </div>
+    </div>
+</div>
+    <div class="container-2">
+        <button id="reset-btn" onclick="reset()">Reset</button>
+        <button id="Save-btn" onclick="save()">Save</button>
+
+        <p id="result">Result : </p>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
